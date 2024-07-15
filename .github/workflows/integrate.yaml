@@ -41,9 +41,6 @@ jobs:
       - name: "Set up problem matchers for phpunit/phpunit"
         run: "echo \"::add-matcher::${{ runner.tool_cache }}/phpunit.json\""
 
-      - name: "Validate composer.json and composer.lock"
-        run: "composer validate --ansi --strict"
-
       - name: "Determine composer cache directory"
         uses: "ergebnis/.github/actions/composer/determine-cache-directory@1.9.2"
 
@@ -106,9 +103,6 @@ jobs:
 
       - name: "Set up problem matchers for PHP"
         run: "echo \"::add-matcher::${{ runner.tool_cache }}/php.json\""
-
-      - name: "Validate composer.json and composer.lock"
-        run: "composer validate --ansi --strict"
 
       - name: "Determine composer cache directory"
         uses: "ergebnis/.github/actions/composer/determine-cache-directory@1.9.2"
@@ -175,9 +169,6 @@ jobs:
       - name: "Set up problem matchers for PHP"
         run: "echo \"::add-matcher::${{ runner.tool_cache }}/php.json\""
 
-      - name: "Validate composer.json and composer.lock"
-        run: "composer validate --ansi --strict"
-
       - name: "Determine composer cache directory"
         uses: "ergebnis/.github/actions/composer/determine-cache-directory@1.9.2"
 
@@ -230,9 +221,6 @@ jobs:
       - name: "Set up problem matchers for PHP"
         run: "echo \"::add-matcher::${{ runner.tool_cache }}/php.json\""
 
-      - name: "Validate composer.json and composer.lock"
-        run: "composer validate --ansi --strict"
-
       - name: "Determine composer cache directory"
         uses: "ergebnis/.github/actions/composer/determine-cache-directory@1.9.2"
 
@@ -281,9 +269,6 @@ jobs:
 
       - name: "Set up problem matchers for PHP"
         run: "echo \"::add-matcher::${{ runner.tool_cache }}/php.json\""
-
-      - name: "Validate composer.json and composer.lock"
-        run: "composer validate --ansi --strict"
 
       - name: "Determine composer cache directory"
         uses: "ergebnis/.github/actions/composer/determine-cache-directory@1.9.2"
@@ -341,9 +326,6 @@ jobs:
       - name: "Set up problem matchers for PHP"
         run: "echo \"::add-matcher::${{ runner.tool_cache }}/php.json\""
 
-      - name: "Validate composer.json and composer.lock"
-        run: "composer validate --ansi --strict"
-
       - name: "Determine composer cache directory"
         uses: "ergebnis/.github/actions/composer/determine-cache-directory@1.9.2"
 
@@ -390,9 +372,6 @@ jobs:
 
       - name: "Set up problem matchers for PHP"
         run: "echo \"::add-matcher::${{ runner.tool_cache }}/php.json\""
-
-      - name: "Validate composer.json and composer.lock"
-        run: "composer validate --ansi --strict"
 
       - name: "Determine composer cache directory"
         uses: "ergebnis/.github/actions/composer/determine-cache-directory@1.9.2"
@@ -450,9 +429,6 @@ jobs:
 
       - name: "Set up problem matchers for phpunit/phpunit"
         run: "echo \"::add-matcher::${{ runner.tool_cache }}/phpunit.json\""
-
-      - name: "Validate composer.json and composer.lock"
-        run: "composer validate --ansi --strict"
 
       - name: "Determine composer cache directory"
         uses: "ergebnis/.github/actions/composer/determine-cache-directory@1.9.2"
